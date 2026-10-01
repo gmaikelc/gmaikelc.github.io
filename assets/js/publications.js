@@ -4,6 +4,11 @@ const search = document.getElementById("publication-search");
 const count = document.getElementById("publication-count");
 
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));}
+function publicationUrl(meta){
+  const doi=String(meta).match(/DOI:\s*(10\.\d{4,9}\/[^\s.]+(?:\.[^\s.]+)*)/i);
+  if(doi) return "https://doi.org/"+doi[1].replace(/[.,;]+$/,"");
+  return "";
+}
 function highlightName(s){
   return esc(s)
     .replace(/Gerardo M\. Casanola-Martin/gi,"<strong>Gerardo M. Casanola-Martin</strong>")
@@ -21,8 +26,8 @@ function render(){
       <article class="publication-entry">
         <div class="publication-number">${p[0]}.</div>
         <div class="publication-citation">
+          <div class="publication-title">${publicationUrl(p[4]) ? `<a href="${publicationUrl(p[4])}" target="_blank" rel="noopener">${esc(p[3])}</a>` : esc(p[3])}</div>
           <div class="publication-authors">${highlightName(p[2])}</div>
-          <div class="publication-title">${esc(p[3])}</div>
           <div class="publication-journal"><em>${esc(p[4])}</em> <span class="publication-year-inline">(${p[1]})</span></div>
         </div>
       </article>`).join("");

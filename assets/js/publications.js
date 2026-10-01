@@ -26,7 +26,7 @@ function render(){
           <div class="publication-journal"><em>${esc(p[4])}</em> <span class="publication-year-inline">(${p[1]})</span></div>
         </div>
       </article>`).join("");
-    return `<section class="publication-year-group" data-year="${year}"><h2 class="publication-year-heading">${year}</h2><div class="publication-year-list">${items}</div></section>`;
+    return `<section class="publication-year-group"><h2 class="publication-year-heading">${year}</h2><div class="publication-year-list">${items}</div></section>`;
   }).join("") || '<p class="no-results">No publications match your search.</p>';
 }
 search.addEventListener("input",render);

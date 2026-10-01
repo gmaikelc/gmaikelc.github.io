@@ -47,8 +47,26 @@ a:hover { text-decoration: underline; }
   gap: 2rem;
 }
 
-.brand { font-weight: 800; color: var(--ink); letter-spacing: -.02em; }
-.brand span { color: var(--blue); }
+.brand {
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -.015em;
+  font-size: 1rem;
+  line-height: 1.1;
+}
+.brand span {
+  color: var(--ink);
+  font-weight: 700;
+}
+.brand::after {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 2px;
+  margin-top: 5px;
+  background: var(--blue);
+  border-radius: 999px;
+}
 
 .site-nav { display: flex; gap: 1.35rem; align-items: center; }
 .site-nav a { color: #44536a; font-weight: 600; font-size: .94rem; }

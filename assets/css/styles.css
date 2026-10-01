@@ -360,7 +360,7 @@ a:hover { text-decoration: underline; }
 .resource-list { display: grid; gap: 1.25rem; }
 .resource-item {
   display: grid;
-  grid-template-columns: minmax(180px, 30%) minmax(0, 1fr);
+  grid-template-columns: minmax(150px, 24%) minmax(0, 1fr);
   gap: 1.7rem;
   align-items: center;
   background: #fff;

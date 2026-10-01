@@ -178,13 +178,8 @@ a:hover { text-decoration: underline; }
 .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
 
 .feature-visual {
-  height: 220px;
   border-radius: 14px;
   background: #fff;
-  display: grid;
-  place-items: center;
-  color: #6b7c92;
-  font-size: .85rem;
   margin-bottom: 1rem;
   overflow: hidden;
   padding: 8px;
@@ -192,8 +187,7 @@ a:hover { text-decoration: underline; }
 
 .feature-visual img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
   display: block;
   border-radius: 10px;
 }

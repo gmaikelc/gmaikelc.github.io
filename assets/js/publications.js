@@ -26,7 +26,7 @@ function render(){
       <article class="publication-entry">
         <div class="publication-number">${p[0]}.</div>
         <div class="publication-citation">
-          <div class="publication-title">`<a href="${publicationUrl(p[4],p[3])}" target="_blank" rel="noopener">${esc(p[3])}</a>`</div>
+          <div class="publication-title"><a href="${publicationUrl(p[4],p[3])}" target="_blank" rel="noopener">${esc(p[3])}</a></div>
           <div class="publication-authors">${highlightName(p[2])}</div>
           <div class="publication-journal"><em>${esc(p[4])}</em> <span class="publication-year-inline">(${p[1]})</span></div>
         </div>

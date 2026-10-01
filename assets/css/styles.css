@@ -86,9 +86,9 @@ a:hover { text-decoration: underline; }
   max-width: 900px;
 }
 
-.hero-home h1 { font-size: clamp(3.2rem, 6vw, 5.4rem); }
+.hero-home h1 { font-size: clamp(2.65rem, 4.5vw, 4.25rem); line-height: 1.04; letter-spacing: -.045em; max-width: 780px; }
 .lead { font-size: 1.22rem; color: var(--muted); max-width: 780px; }
-.identity { font-size: 1rem; font-weight: 700; color: #43536a; margin-bottom: 1rem; }
+.identity { font-size: 1.05rem; font-weight: 650; color: #43536a; margin-bottom: 1rem; }
 
 .actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2rem; }
 

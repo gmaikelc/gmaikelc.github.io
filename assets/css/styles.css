@@ -56,7 +56,11 @@ a:hover { text-decoration: underline; }
 .menu-toggle { display: none; }
 
 .page-shell { max-width: 1180px; margin: auto; padding: 0 1.4rem; }
-.content { min-width: 0; }
+.content {
+  width: min(1180px, calc(100% - 2.8rem));
+  margin: 0 auto;
+  min-width: 0;
+}
 
 .hero { padding: 6.5rem 0 5rem; max-width: 920px; }
 

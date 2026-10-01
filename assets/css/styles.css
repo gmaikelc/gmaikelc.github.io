@@ -126,14 +126,15 @@ a:hover { text-decoration: underline; }
 .portrait-placeholder strong { display: block; color: var(--ink); font-size: 1.15rem; }
 
 .professional-portrait {
-  width: 280px;
-  height: 350px;
+  width: 220px;
+  height: 275px;
   object-fit: cover;
   object-position: center top;
-  border-radius: 28px;
+  border-radius: 24px;
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
   display: block;
+  margin: 0 auto;
 }
 
 .section { padding: 4.8rem 0; border-top: 1px solid var(--line); }

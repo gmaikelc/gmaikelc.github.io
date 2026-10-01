@@ -355,3 +355,17 @@ a:hover { text-decoration: underline; }
 .publication h3 {
   line-height: 1.25;
 }
+
+/* Research resources */
+.resource-list { display: grid; gap: 1.25rem; }
+.resource-item {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.65rem 1.8rem;
+  box-shadow: 0 8px 24px rgba(26, 42, 70, .05);
+}
+.resource-item h3 { margin: 0 0 .65rem; font-size: 1.35rem; color: var(--ink); }
+.resource-item p { max-width: 820px; }
+.resource-meta { color: var(--blue); font-size: .88rem; font-weight: 700; margin-top: .9rem; }
+.resource-button { margin-top: .25rem; box-shadow: none; cursor: default; opacity: .78; }

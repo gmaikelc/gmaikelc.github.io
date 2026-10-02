@@ -39,14 +39,6 @@ A 1000 × 1000 pixel JPG or WebP works well.
 
 The site will be available at `https://YOUR-USERNAME.github.io/`.
 
-## Recommended final edits
-
-- Add a professional portrait.
-- Add your Google Scholar URL if desired.
-- Check the 2026 publication citations as final volume/page details become available.
-- Convert the CV to PDF and change the CV link if PDF is preferred.
-- Add DOI or publisher links to selected publications.
-
 ## Files
 
 - `index.html` — home/about page

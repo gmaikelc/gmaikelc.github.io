@@ -419,8 +419,17 @@ a:hover { text-decoration: underline; }
   z-index: 1;
   overflow: visible;
   margin-bottom: 1rem;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .colab-visual img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain;
+  display: block;
+  border-radius: 14px;
   transition: transform .22s ease, box-shadow .22s ease;
   transform-origin: center center;
   cursor: zoom-in;

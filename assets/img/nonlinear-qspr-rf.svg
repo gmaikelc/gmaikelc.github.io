@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<rect width="1536" height="1024" rx="42" fill="#f5f8fc"/>
+<rect x="34" y="32" width="1468" height="190" rx="34" fill="#173f76"/>
+<text x="80" y="110" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700" fill="#fff">Interpreting Nonlinear QSPR</text>
+<text x="80" y="170" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="600" fill="#dbeafe">with Random Forest</text>
+
+<rect x="60" y="270" width="430" height="580" rx="28" fill="#fff" stroke="#c7d7eb" stroke-width="3"/>
+<text x="95" y="330" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#173f76">Random Forest</text>
+<g stroke="#2f6ea5" stroke-width="8" stroke-linecap="round">
+<line x1="275" y1="720" x2="275" y2="430"/><line x1="275" y1="520" x2="175" y2="430"/><line x1="275" y1="520" x2="375" y2="430"/>
+<line x1="175" y1="430" x2="125" y2="360"/><line x1="175" y1="430" x2="225" y2="360"/>
+<line x1="375" y1="430" x2="325" y2="360"/><line x1="375" y1="430" x2="425" y2="360"/>
+</g>
+<g fill="#69a96b"><circle cx="125" cy="350" r="28"/><circle cx="225" cy="350" r="28"/><circle cx="325" cy="350" r="28"/><circle cx="425" cy="350" r="28"/></g>
+<text x="105" y="790" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#334155">Nonlinear splits · interactions · thresholds</text>
+
+<rect x="550" y="270" width="430" height="580" rx="28" fill="#fff" stroke="#c7e7d7" stroke-width="3"/>
+<text x="585" y="330" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#147a55">Global interpretation</text>
+<text x="590" y="390" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#334155">Permutation importance</text>
+<g fill="#55a868">
+<rect x="610" y="440" width="270" height="36" rx="5"/>
+<rect x="610" y="500" width="220" height="36" rx="5"/>
+<rect x="610" y="560" width="165" height="36" rx="5"/>
+<rect x="610" y="620" width="120" height="36" rx="5"/>
+</g>
+<text x="590" y="735" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#334155">PDP · ALE · SHAP</text>
+
+<rect x="1040" y="270" width="430" height="580" rx="28" fill="#fff" stroke="#f2d4b3" stroke-width="3"/>
+<text x="1075" y="330" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#c85e00">Local explanation</text>
+<path d="M1100 690 C1160 620, 1190 520, 1260 530 C1320 540, 1335 420, 1405 385" fill="none" stroke="#3b82c4" stroke-width="10"/>
+<g fill="#f59e42"><circle cx="1120" cy="666" r="14"/><circle cx="1200" cy="548" r="14"/><circle cx="1280" cy="530" r="14"/><circle cx="1385" cy="410" r="14"/></g>
+<rect x="1120" y="735" width="280" height="58" rx="14" fill="#fff5e8"/>
+<text x="1150" y="772" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600" fill="#c85e00">Why this molecule?</text>
+
+<rect x="60" y="890" width="1410" height="82" rx="22" fill="#eaf1f8"/>
+<text x="95" y="940" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#173f76">Validation  →  Permutation importance  →  PDP / ALE  →  SHAP  →  Chemical reasoning</text>
+</svg>

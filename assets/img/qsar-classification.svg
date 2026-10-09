@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+  <rect width="1536" height="1024" rx="36" fill="#f5f7fb"/>
+  <rect x="80" y="50" width="1376" height="120" rx="28" fill="#17345f"/>
+  <text x="768" y="105" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="700" fill="#ffffff">QSAR Classification with Machine Learning</text>
+  <text x="768" y="145" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#dbe6f4">Soluble vs Poorly Soluble Molecules</text>
+
+  <rect x="90" y="220" width="420" height="305" rx="26" fill="#ffffff" stroke="#d8e0ea" stroke-width="3"/>
+  <text x="300" y="270" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#17345f">Molecular descriptors</text>
+  <circle cx="210" cy="365" r="58" fill="#6d8fc5"/>
+  <circle cx="300" cy="325" r="40" fill="#7fb6a8"/>
+  <circle cx="382" cy="390" r="50" fill="#c77a7a"/>
+  <line x1="250" y1="350" x2="275" y2="335" stroke="#52657b" stroke-width="9"/>
+  <line x1="335" y1="346" x2="360" y2="372" stroke="#52657b" stroke-width="9"/>
+  <text x="300" y="480" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" fill="#516273">MW · LogP · TPSA · HBD/HBA</text>
+
+  <rect x="558" y="220" width="420" height="305" rx="26" fill="#ffffff" stroke="#d8e0ea" stroke-width="3"/>
+  <text x="768" y="270" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#17345f">Confusion matrix</text>
+  <g transform="translate(665 315)">
+    <rect x="0" y="0" width="92" height="72" fill="#d9e7f7" stroke="#ffffff" stroke-width="4"/>
+    <rect x="92" y="0" width="92" height="72" fill="#7aa6d8" stroke="#ffffff" stroke-width="4"/>
+    <rect x="0" y="72" width="92" height="72" fill="#9fc3e8" stroke="#ffffff" stroke-width="4"/>
+    <rect x="92" y="72" width="92" height="72" fill="#315d92" stroke="#ffffff" stroke-width="4"/>
+    <text x="46" y="45" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#17345f">TN</text>
+    <text x="138" y="45" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#17345f">FP</text>
+    <text x="46" y="118" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#17345f">FN</text>
+    <text x="138" y="118" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#ffffff">TP</text>
+  </g>
+  <text x="768" y="480" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" fill="#516273">Precision · Recall · F1</text>
+
+  <rect x="1026" y="220" width="420" height="305" rx="26" fill="#ffffff" stroke="#d8e0ea" stroke-width="3"/>
+  <text x="1236" y="270" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#17345f">ROC &amp; probability</text>
+  <line x1="1110" y1="445" x2="1360" y2="445" stroke="#aeb9c7" stroke-width="4"/>
+  <line x1="1110" y1="445" x2="1110" y2="315" stroke="#aeb9c7" stroke-width="4"/>
+  <path d="M1110 445 C1150 390,1190 335,1260 315 C1310 300,1340 292,1360 288" fill="none" stroke="#4a78b2" stroke-width="10" stroke-linecap="round"/>
+  <line x1="1110" y1="445" x2="1360" y2="288" stroke="#c4ccd6" stroke-width="4" stroke-dasharray="10 10"/>
+  <text x="1236" y="480" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" fill="#516273">ROC-AUC · P(Soluble)</text>
+
+  <rect x="210" y="590" width="1116" height="315" rx="28" fill="#ffffff" stroke="#d8e0ea" stroke-width="3"/>
+  <text x="768" y="650" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#17345f">Decision threshold &amp; class weighting</text>
+  <line x1="380" y1="760" x2="1155" y2="760" stroke="#aeb9c7" stroke-width="16" stroke-linecap="round"/>
+  <line x1="380" y1="760" x2="780" y2="760" stroke="#6f97c8" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="780" cy="760" r="30" fill="#17345f"/>
+  <text x="780" y="820" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#17345f">Threshold</text>
+  <text x="390" y="860" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#516273">Poorly Soluble</text>
+  <text x="1115" y="860" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#516273">Soluble</text>
+</svg>
